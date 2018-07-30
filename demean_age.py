@@ -1,7 +1,7 @@
 import sys
 import numpy as np
 
-age = np.loadtxt(sys.argv[1], skiprows=1, usecols=3)
+age = np.loadtxt(sys.argv[1], skiprows=1, usecols=1)
 
 mean_age = sum(age)/len(age)
 print(mean_age)
